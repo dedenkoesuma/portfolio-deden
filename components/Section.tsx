@@ -26,7 +26,7 @@ export function Section() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Hi! I'm Deden Koesuma, I'm a Content Creator &<br />
+              Hi! I&apos;m Deden Koesuma, I&apos;m a Content Creator &<br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                 Web Developer
               </span>
