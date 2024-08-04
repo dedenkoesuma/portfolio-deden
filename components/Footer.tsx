@@ -1,5 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import LitUpButton from "./LitUpButton";
+import Image from "next/image";
 
 const Footer = () => {
   const socialMedia = [
@@ -27,11 +28,11 @@ const Footer = () => {
           Ready to take <span className="text-blue-500">your</span> digital presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-4 mb-5 text-base sm:text-lg">
-          Reach out to me today and let's discuss how I can help you achieve your goals.
+          Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
         </p>
         <a href="mailto:dedenkoesuma72@gmail.com">
           <LitUpButton
-            title="Let's get in touch"
+            title="Let&apos;s get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -50,7 +51,7 @@ const Footer = () => {
               href={info.link}
               className="w-8 h-8 sm:w-10 sm:h-10 flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black rounded-lg border border-gray-700 mx-2 my-2"
             >
-              <img src={info.img} alt="icons" className="w-4 h-4 sm:w-5 sm:h-5" />
+              <Image  src={info.img} alt="icons" className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
           ))}
         </div>
