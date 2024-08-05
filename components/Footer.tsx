@@ -51,7 +51,8 @@ const Footer = () => {
               href={info.link}
               className="w-8 h-8 sm:w-10 sm:h-10 flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black rounded-lg border border-gray-700 mx-2 my-2"
             >
-              <Image  src={info.img} alt="icons" className="w-4 h-4 sm:w-5 sm:h-5" />
+              <Image  src={info.img} alt="icons" className="w-4 h-4 sm:w-5 sm:h-5" width={320}
+              height={320} />
             </a>
           ))}
         </div>

@@ -1,7 +1,8 @@
 "use client";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { FlipWords } from "@/components/ui/flip-words";
-import React from "react";
+import { FaLocationArrow } from "react-icons/fa6";
+import LitUpButton from "./LitUpButton";
 
 export function About() {
   const words = ["Journey", "Skills", "Passions", "Achievements"];
@@ -20,6 +21,15 @@ export function About() {
           <h1 className="text-medium mt-4">
             Engineer, content creator, graphic designer, and photographer with over 100 design pieces and 15 websites created. Experienced leader in film production.
           </h1>
+          <div className="text-left mt-4"> {/* Added class and margin-top */}
+            <a href="https://drive.google.com/drive/folders/19x_WbSR0JJocw0Ctwc2NOgp7Gw3z82Ph?usp=drive_link">
+              <LitUpButton
+                title="See More My Projects"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
 
